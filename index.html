@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">kingoss</h1>
+        <nav class="header__nav-list">
+            <ul class="nav-list">
+                <li><a class="nav-list__link nav-list--active" href="Home">Home</a></li>
+                <li><a class="nav-list__link" href="About Me">About Me</a></li>
+                <li><a class="nav-list__link"  href="porfolio">Portfolio</a></li>
+                <li><a class="nav-list__link" href="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="about" id="about">
+        <h1 class="about__title">About Me</h1>
+
+        <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, incidunt!</p>
+        <p class="about__text">hello i am jad khachouk from lebanon im 23 years old</p>
+        
+        </section>
+
+
+        <section class="portfolio" id="porfolio">
+            <h1 class="portfolio__title">My portfolio</h1>
+           <div class="portfolio__cards">
+            <div class="project">
+                <img class="project__image" src="/netflix.jpg" alt="">
+                <h3 class="project__title">Netflix</h3>
+                <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, accusamus voluptates maiores tempore illo doloremque eaque iure! Expedita, quibusdam officia? </p>
+                <br>
+                <button class="project__button">View Project</button>
+            </div>
+
+            <div class="project">
+                <img class="project__image" src="/youtube-logo.png" alt="">
+                <h3 class="project__title">Youtube</h3>
+                <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, accusamus voluptates maiores tempore illo doloremque eaque iure! Expedita, quibusdam officia? </p>
+                <br>
+                <button class="project__button">View Project</button>
+            </div>
+
+            <div class="project">
+                <img class="project__image" src="/instagram-logo.jpg" alt="">
+                <h3 class="project__title">Instagram</h3>
+                <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, accusamus voluptates maiores tempore illo doloremque eaque iure! Expedita, quibusdam officia? </p>
+                <br>
+                <button class="project__button">View Project</button>
+            </div>
+            </div>  
+
+        </section>
+
+        <section class="contact" id="contact">
+            <h1 class="contact__title">Contact Me</h1>
+            <form class="contact__form" action="">
+                <label class="contact__label" for="fname" id="name">Name:</label>
+                <input class="contact__input" type="text" id="fname" required>
+                <label class="contact__label" for="Email" id="email">Email:</label>
+                <input class="contact__input" type="email" id="Email" required><br>
+                <label class="contact__label" for="message" id="message" >Message:</label>
+                <textarea class="contact__textarea" name="message" id="message"></textarea><br>
+                <input class="contact__submit" type="submit" value="Send message">
+            </form>
+        </section>
+    </main> 
+    <footer class="footer">
+        <p class="footer__title">&copy;william khachouk</p>
+    </footer>        
+</body>
+</html>
